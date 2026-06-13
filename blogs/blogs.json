@@ -1,0 +1,172 @@
+{
+  "aid": "vatapi",
+  "name": "VAT API Blog",
+  "description": "News and updates from VAT API covering EU and UK VAT rate changes, new API features, and compliance updates.",
+  "url": "https://vatapi.com/news",
+  "created": "2026-06-13",
+  "modified": "2026-06-13",
+  "blogs": [
+    {
+      "title": "Finland Lowers Reduced VAT Rate to 13.5% Effective 1 January 2026",
+      "url": "https://vatapi.com/news/article/finland-lowers-reduced-vat-rate-to-13-5-effective-1-january-2026",
+      "date": "2026-01-01",
+      "tags": ["Finland", "VAT Rate", "EU"]
+    },
+    {
+      "title": "Lithuania Raises Reduced VAT Rate to 12% and Introduces Other Changes Effective 1 January 2026",
+      "url": "https://vatapi.com/news/article/lithuania-raises-reduced-vat-rate-to-12-and-introduces-other-changes-effective-1-january-2026",
+      "date": "2026-01-01",
+      "tags": ["Lithuania", "VAT Rate", "EU"]
+    },
+    {
+      "title": "Romania Raises Standard VAT Rate to 21% and Increases Reduced Rate to 11%",
+      "url": "https://vatapi.com/news/article/romainia-raises-standard-vat-rate-to-21-percent",
+      "date": "2025-08-01",
+      "tags": ["Romania", "VAT Rate", "EU"]
+    },
+    {
+      "title": "Estonia Raises Standard VAT Rate to 24%",
+      "url": "https://vatapi.com/news/article/estonia-raises-standard-vat-rate-to-24-percent",
+      "date": "2025-07-01",
+      "tags": ["Estonia", "VAT Rate", "EU"]
+    },
+    {
+      "title": "Slovakia Raises Standard VAT Rate to 23%",
+      "url": "https://vatapi.com/news/article/slovakia-raises-standard-vat-rate",
+      "date": "2025-01-01",
+      "tags": ["Slovakia", "VAT Rate", "EU"]
+    },
+    {
+      "title": "Finland Raises Standard VAT Rate to 25.5%",
+      "url": "https://vatapi.com/news/article/finland-standard-vat-rate-increase",
+      "date": "2024-09-01",
+      "tags": ["Finland", "VAT Rate", "EU"]
+    },
+    {
+      "title": "Malta Introduces Additional Reduced VAT Rate",
+      "url": "https://vatapi.com/news/article/malta-introduces-additional-reduced-vat-rate",
+      "date": "2024-01-01",
+      "tags": ["Malta", "VAT Rate", "EU"]
+    },
+    {
+      "title": "Luxembourg to End Temporary VAT Rate Cut",
+      "url": "https://vatapi.com/news/article/luxembourg-to-end-temporary-vat-rate-cut",
+      "date": "2024-01-01",
+      "tags": ["Luxembourg", "VAT Rate", "EU"]
+    },
+    {
+      "title": "Ireland Cuts VAT on eBooks",
+      "url": "https://vatapi.com/news/article/ireland-cuts-vat-on-ebooks",
+      "date": "2024-01-01",
+      "tags": ["Ireland", "VAT Rate", "eBooks", "EU"]
+    },
+    {
+      "title": "Estonia Raises VAT Rate to 22%",
+      "url": "https://vatapi.com/news/article/estonia-raises-vat-rate-to-22-percent",
+      "date": "2024-01-01",
+      "tags": ["Estonia", "VAT Rate", "EU"]
+    },
+    {
+      "title": "New 12% Reduced Rate for Czech Republic",
+      "url": "https://vatapi.com/news/article/new-12-percent-reduced-rate-for-czech-republic",
+      "date": "2024-01-01",
+      "tags": ["Czech Republic", "VAT Rate", "EU"]
+    },
+    {
+      "title": "Lithuania Introduces Cut to eBook VAT Rate",
+      "url": "https://vatapi.com/news/article/lithuania-introduces-cut-to-ebook-vat-rate",
+      "date": "2023-01-01",
+      "tags": ["Lithuania", "VAT Rate", "eBooks", "EU"]
+    },
+    {
+      "title": "Luxembourg One Year VAT Cuts",
+      "url": "https://vatapi.com/news/article/luxembourg-one-year-vat-cuts",
+      "date": "2023-01-01",
+      "tags": ["Luxembourg", "VAT Rate", "EU"]
+    },
+    {
+      "title": "GB & EU EORI Number Validation",
+      "url": "https://vatapi.com/news/article/gb-and-eu-eori-number-validation",
+      "date": "2022-04-22",
+      "tags": ["EORI", "GB", "EU", "Validation"]
+    },
+    {
+      "title": "Romania & Latvia Reduce VAT on e-Publications",
+      "url": "https://vatapi.com/news/article/romania-and-latvia-reduce-vat-on-e-publications",
+      "date": "2022-01-01",
+      "tags": ["Romania", "Latvia", "VAT Rate", "eBooks", "EU"]
+    },
+    {
+      "title": "VAT API is Brexit Ready",
+      "url": "https://vatapi.com/news/article/brexit-ready",
+      "date": "2020-12-08",
+      "tags": ["Brexit", "UK", "HMRC"]
+    },
+    {
+      "title": "Ireland cuts VAT from 23% to 21% until Feb 2021",
+      "url": "https://vatapi.com/news/article/ireland-cuts-vat-from-23-to-21-until-feb-2021",
+      "date": "2020-09-01",
+      "tags": ["Ireland", "VAT Rate", "EU"]
+    },
+    {
+      "title": "Bulgaria Cuts eBook VAT Rate",
+      "url": "https://vatapi.com/news/article/bulgaria-cuts-ebook-rate-to-support-publishing-sector",
+      "date": "2020-07-01",
+      "tags": ["Bulgaria", "VAT Rate", "eBooks", "EU"]
+    },
+    {
+      "title": "Germany Cuts VAT Rate to 16% as part of COVID-19 Stimulus Package",
+      "url": "https://vatapi.com/news/article/germany-cuts-vat-rate-to-16-percent-as-part-of-covid-19-stimulus-package",
+      "date": "2020-07-01",
+      "tags": ["Germany", "VAT Rate", "COVID-19", "EU"]
+    },
+    {
+      "title": "Estonia & Czech Republic Cut VAT Rate on eBooks",
+      "url": "https://vatapi.com/news/article/estonia-and-czech-republic-cut-vat-rate-on-ebooks",
+      "date": "2020-05-01",
+      "tags": ["Estonia", "Czech Republic", "VAT Rate", "eBooks", "EU"]
+    },
+    {
+      "title": "Spain cuts eBook VAT rate to 4%",
+      "url": "https://vatapi.com/news/article/spain-cuts-ebook-vat-rate",
+      "date": "2020-04-23",
+      "tags": ["Spain", "VAT Rate", "eBooks", "EU"]
+    },
+    {
+      "title": "Poland Reduced Rate Drops to 7%",
+      "url": "https://vatapi.com/news/article/polands-reduced-rates-drop",
+      "date": "2020-04-01",
+      "tags": ["Poland", "VAT Rate", "EU"]
+    },
+    {
+      "title": "Multiple VAT Rate Cuts on eBooks across the EU",
+      "url": "https://vatapi.com/news/article/multiple-vat-rate-cuts-on-ebooks-across-the-eu",
+      "date": "2020-01-01",
+      "tags": ["eBooks", "VAT Rate", "EU"]
+    },
+    {
+      "title": "Finland & Sweden Cut VAT Rate on eBooks",
+      "url": "https://vatapi.com/news/article/finland-and-sweden-cut-vat-rate-on-ebooks",
+      "date": "2019-07-01",
+      "tags": ["Finland", "Sweden", "VAT Rate", "eBooks", "EU"]
+    },
+    {
+      "title": "Belgium cuts VAT rate on e-book sales to 6%",
+      "url": "https://vatapi.com/news/article/belgium-cuts-vat-rate-on-ebook-sales",
+      "date": "2019-05-08",
+      "tags": ["Belgium", "VAT Rate", "eBooks", "EU"]
+    },
+    {
+      "title": "Poland cuts VAT on the sale of eBooks",
+      "url": "https://vatapi.com/news/article/poland-cuts-vat-on-the-sale-of-ebooks",
+      "date": "2019-04-01",
+      "tags": ["Poland", "VAT Rate", "eBooks", "EU"]
+    },
+    {
+      "title": "VAT API - Version 2 is Launched",
+      "url": "https://vatapi.com/news/article/vat-api-version-2-is-launched",
+      "date": "2019-04-01",
+      "tags": ["API", "Launch", "Version 2"]
+    }
+  ]
+}

@@ -57,6 +57,10 @@ common:
     url: https://raw.githubusercontent.com/api-evangelist/vatapi/refs/heads/main/rate-limits/vatapi-rate-limits.yml
   - type: FinOps
     url: https://raw.githubusercontent.com/api-evangelist/vatapi/refs/heads/main/finops/vatapi-finops.yml
+  - type: BlogPosts
+    url: https://raw.githubusercontent.com/api-evangelist/vatapi/refs/heads/main/blogs/blogs.json
+  - type: JsonLD
+    url: https://raw.githubusercontent.com/api-evangelist/vatapi/refs/heads/main/json-ld/vatapi.json
 maintainers:
   - FN: Kin Lane
     email: kin@apievangelist.com
