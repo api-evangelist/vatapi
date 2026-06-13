@@ -1,0 +1,62 @@
+aid: vatapi
+name: VAT API
+description: EU and UK VAT compliance REST API providing VAT rate retrieval, VAT number validation via the European Commission VIES system and UK HMRC, currency conversion, and VAT-compliant invoice generation. Operated by Eventured Ltd and launched in 2015, it connects directly to authoritative EU and HMRC sources to deliver audit-ready consultation numbers and real-time rate data.
+image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+url: https://raw.githubusercontent.com/api-evangelist/vatapi/refs/heads/main/apis.yml
+created: '2026-06-13'
+modified: '2026-06-13'
+specificationVersion: '0.19'
+tags:
+  - VAT
+  - Tax
+  - EU
+  - UK
+  - Compliance
+  - Invoice
+  - VIES
+  - Business Verification
+apis:
+  - aid: vatapi:vat-api
+    name: VAT API v2
+    description: REST API for EU and UK VAT compliance including VAT rate lookups by country, VAT number validation against VIES and HMRC, currency conversion rates from HMRC and ECB, and generation of VAT-compliant invoices with sequential numbering.
+    image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    humanURL: https://vatapi.com/
+    baseURL: https://eu.vatapi.com/v2
+    tags:
+      - VAT Rates
+      - VAT Number Validation
+      - Invoicing
+      - Currency Conversion
+      - VIES
+      - HMRC
+    properties:
+      - type: Documentation
+        url: https://docs.vatapi.com/
+      - type: PostmanWorkspace
+        url: https://www.postman.com/vatapi/vat-api-s-public-workspace/documentation/ku592di/vat-api
+      - type: Plans
+        url: https://raw.githubusercontent.com/api-evangelist/vatapi/refs/heads/main/plans/vatapi-plans-pricing.yml
+      - type: RateLimits
+        url: https://raw.githubusercontent.com/api-evangelist/vatapi/refs/heads/main/rate-limits/vatapi-rate-limits.yml
+      - type: FinOps
+        url: https://raw.githubusercontent.com/api-evangelist/vatapi/refs/heads/main/finops/vatapi-finops.yml
+common:
+  - type: Website
+    url: https://vatapi.com/
+  - type: Documentation
+    url: https://docs.vatapi.com/
+  - type: Pricing
+    url: https://vatapi.onfastspring.com/
+  - type: Blog
+    url: https://vatapi.com/news
+  - type: GitHubOrg
+    url: https://github.com/infolution
+  - type: Plans
+    url: https://raw.githubusercontent.com/api-evangelist/vatapi/refs/heads/main/plans/vatapi-plans-pricing.yml
+  - type: RateLimits
+    url: https://raw.githubusercontent.com/api-evangelist/vatapi/refs/heads/main/rate-limits/vatapi-rate-limits.yml
+  - type: FinOps
+    url: https://raw.githubusercontent.com/api-evangelist/vatapi/refs/heads/main/finops/vatapi-finops.yml
+maintainers:
+  - FN: Kin Lane
+    email: kin@apievangelist.com

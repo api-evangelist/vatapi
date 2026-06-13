@@ -1,0 +1,51 @@
+name: VAT API Plans and Pricing
+description: VAT API (vatapi.com) offers subscription plans for accessing its EU and UK VAT compliance REST API. Plans are billed monthly via FastSpring and are based on API call volume. A 30-day free trial is available for new accounts. All plans include access to VAT rates, VAT number validation, invoicing, and currency conversion endpoints. Custom throughput and dedicated endpoints (e.g., https://yourcompany.vatapi.com) are available on request.
+url: https://vatapi.onfastspring.com/
+plans:
+  - name: Free Trial
+    description: 30-day free trial providing full access to all VAT API v2 endpoints. No payment required to start. Converts to a paid plan after the trial period.
+    price: 0
+    unit: month
+    limit: Full API access for 30 days
+    features:
+      - VAT rate lookups by country code
+      - VAT number validation via VIES and HMRC
+      - Currency conversion (HMRC and ECB rates)
+      - VAT-compliant invoice generation
+      - EU and Global endpoint access
+      - x-api-key authentication
+  - name: Starter
+    description: Entry-level monthly plan for low-volume VAT compliance needs. Suited for small applications or early-stage products handling EU or UK transactions.
+    price: contact
+    unit: month
+    limit: Low monthly API call allocation
+    features:
+      - All Free Trial features
+      - VAT number validation with audit consultation numbers
+      - EU endpoint (eu.vatapi.com/v2) or Global endpoint
+      - Amazon API Gateway infrastructure
+      - Standard rate limits
+  - name: Business
+    description: Mid-tier monthly plan for growing businesses with moderate API call volumes. Includes generous throughput for production integrations.
+    price: contact
+    unit: month
+    limit: Moderate monthly API call allocation
+    features:
+      - All Starter features
+      - Higher monthly call allocation
+      - TBE (Telecom/Broadcasting/Electronic) and GOODS rate classifications
+      - Multiple trading name support on invoices
+      - GBP/EUR equivalent totals on invoices
+      - Invoice URL generation
+  - name: Enterprise
+    description: High-volume plan for large enterprises requiring custom throughput, dedicated endpoints, and SLA-backed performance. Contact VAT API for custom pricing and configuration.
+    price: contact
+    unit: month
+    limit: Custom monthly API call allocation
+    features:
+      - All Business features
+      - Custom subdomain endpoint (e.g., https://yourcompany.vatapi.com)
+      - Custom throughput limits
+      - Priority support
+      - Dedicated infrastructure options
+      - Global or EU endpoint selection

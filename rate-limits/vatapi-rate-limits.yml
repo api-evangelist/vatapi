@@ -1,0 +1,43 @@
+name: VAT API Rate Limits
+description: VAT API implements dynamic rate limiting to protect service availability and ensure fair use across all customers. Rate limits are enforced per API key and vary by subscription plan. Exceeding the rate limit results in HTTP 429 Too Many Requests responses. Limits can be adjusted at any time to accommodate customer demand. All plans include what VAT API describes as "generous throughput," with custom higher limits available by contacting support.
+url: https://docs.vatapi.com/
+limits:
+  - name: Per-Plan Monthly Call Limit
+    description: Each subscription plan includes a monthly allocation of API calls across all endpoints. The specific limit depends on the subscribed plan tier. Exceeding the monthly allocation may result in service suspension or upgrade prompts.
+    scope: monthly
+    unit: API calls
+    enforcement: per API key
+    response_on_exceed: HTTP 429 Too Many Requests
+    notes: Contact vatapi.com for specific call limits per plan tier.
+  - name: Request Rate Throttling
+    description: In addition to monthly limits, VAT API applies per-second or per-minute throttling to prevent burst abuse. This is enforced at the Amazon API Gateway layer.
+    scope: per second / per minute
+    unit: requests
+    enforcement: per API key
+    response_on_exceed: HTTP 429 Too Many Requests
+    notes: Throttle limits are dynamic and may be adjusted to accommodate customer demand. Specific burst and sustained rate values are not publicly documented.
+  - name: Custom Throughput
+    description: Enterprise plan customers can negotiate custom throughput limits beyond the default plan allocations. This includes higher burst and sustained request rates as well as dedicated endpoint infrastructure.
+    scope: custom
+    unit: requests
+    enforcement: per API key / per custom endpoint
+    notes: Available on request via vatapi.com contact form for Enterprise customers.
+authentication:
+  method: API Key
+  header: x-api-key
+  location: Request header
+  notes: API keys are obtained after registering at vatapi.com. Keys are available in the account dashboard at https://vatapi.com/login. Keys must be kept secret and not shared publicly.
+infrastructure:
+  provider: Amazon Web Services
+  gateway: Amazon API Gateway
+  endpoints:
+    - name: EU Endpoint
+      url: https://eu.vatapi.com/v2
+      region: EU (London data center)
+    - name: Global Endpoint
+      url: https://api.vatapi.com/v2
+      region: Global
+    - name: Custom Endpoint
+      url: https://yourcompany.vatapi.com
+      region: Custom (Enterprise plans)
+  notes: Choice of EU or Global endpoint is dependent on integration location. Custom subdomain endpoints are available for Enterprise customers.

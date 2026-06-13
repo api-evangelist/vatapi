@@ -1,0 +1,47 @@
+name: VAT API FinOps
+description: Financial operations guidance for VAT API (vatapi.com) usage. VAT API uses a subscription-based pricing model billed monthly via FastSpring. Plans are tiered by API call volume. Cost management centers on choosing the right plan tier, monitoring monthly call consumption, and leveraging the 30-day free trial before committing to a paid plan. There is no publicly documented per-call overage pricing; exceeding plan limits may suspend service.
+url: https://vatapi.onfastspring.com/
+billing:
+  model: Subscription
+  frequency: Monthly
+  processor: FastSpring
+  currency: GBP / EUR (UK company - Eventured Ltd)
+  trial:
+    duration: 30 days
+    cost: Free
+    credit_card_required: Unknown - check vatapi.com at signup
+  notes: Specific plan prices are not publicly listed on the main website. Pricing is managed through vatapi.onfastspring.com. Contact vatapi.com for current pricing.
+cost_drivers:
+  - name: API Call Volume
+    description: The primary cost driver is the number of API calls made per month. Each endpoint call (VAT rate lookup, VAT number validation, invoice generation, currency conversion) counts toward the monthly allocation.
+    optimization: Batch operations where possible; cache VAT rates locally since they change infrequently; only validate VAT numbers when necessary rather than on every transaction.
+  - name: Plan Tier
+    description: Subscribing to a higher plan tier than needed wastes budget. Start with a lower tier and upgrade as call volume grows.
+    optimization: Use the 30-day free trial to measure actual call volumes in pre-production before selecting a plan.
+  - name: Custom Endpoint
+    description: Enterprise customers opting for a custom subdomain endpoint (e.g., yourcompany.vatapi.com) may incur additional costs.
+    optimization: Only use custom endpoints if required for compliance, branding, or dedicated infrastructure SLAs.
+optimization_strategies:
+  - name: Cache VAT Rates
+    description: EU VAT rates change infrequently (typically at the start of a calendar year or following legislation). Cache rate responses locally and refresh only when changes are announced via the vatapi.com/news feed.
+    savings_potential: High - can reduce rate lookup calls by 90%+ for stable rate environments.
+  - name: Validate VAT Numbers Selectively
+    description: VAT number validation calls connect live to VIES or HMRC and should be triggered only on customer onboarding or when a VAT number changes, not on every transaction.
+    savings_potential: High - avoids repeated validation of already-verified numbers.
+  - name: Monitor Monthly Usage
+    description: Track API call counts via the vatapi.com account dashboard to avoid unexpected plan exhaustion mid-month.
+    savings_potential: Medium - prevents service interruption and unplanned upgrade costs.
+  - name: Right-Size Plan
+    description: Begin on a lower plan tier during development and early production, then upgrade as real call volumes become clear.
+    savings_potential: Medium - avoids over-provisioning during low-traffic phases.
+  - name: Use Free Trial Fully
+    description: The 30-day free trial provides full API access. Use this period to benchmark actual API call volumes before selecting a paid plan.
+    savings_potential: Low (one-time) - avoids cost during evaluation phase.
+cost_visibility:
+  dashboard: https://vatapi.com/login
+  notes: API usage metrics are available in the account dashboard. Specific metrics (call counts, remaining allocation, billing history) are accessible after login.
+company:
+  name: Eventured Ltd
+  registration: UK Companies House 11203935
+  vat_number: GB 289111588
+  country: United Kingdom
