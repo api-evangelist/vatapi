@@ -6,7 +6,7 @@
   "alternateName": "vatapi",
   "description": "EU and UK VAT compliance REST API providing VAT rate retrieval, VAT number validation via the European Commission VIES system and UK HMRC, currency conversion, and VAT-compliant invoice generation. Operated by Eventured Ltd and launched in 2015.",
   "url": "https://vatapi.com/",
-  "logo": "https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg",
+  "logo": "https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg",
   "sameAs": [
     "https://github.com/infolution",
     "https://www.postman.com/vatapi/vat-api-s-public-workspace/documentation/ku592di/vat-api"

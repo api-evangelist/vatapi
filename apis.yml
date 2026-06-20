@@ -1,7 +1,7 @@
 aid: vatapi
 name: VAT API
 description: EU and UK VAT compliance REST API providing VAT rate retrieval, VAT number validation via the European Commission VIES system and UK HMRC, currency conversion, and VAT-compliant invoice generation. Operated by Eventured Ltd and launched in 2015, it connects directly to authoritative EU and HMRC sources to deliver audit-ready consultation numbers and real-time rate data.
-image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
 url: https://raw.githubusercontent.com/api-evangelist/vatapi/refs/heads/main/apis.yml
 created: '2026-06-13'
 modified: '2026-06-13'
@@ -19,7 +19,7 @@ apis:
   - aid: vatapi:vat-api
     name: VAT API v2
     description: REST API for EU and UK VAT compliance including VAT rate lookups by country, VAT number validation against VIES and HMRC, currency conversion rates from HMRC and ECB, and generation of VAT-compliant invoices with sequential numbering.
-    image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
     humanURL: https://vatapi.com/
     baseURL: https://eu.vatapi.com/v2
     tags:
