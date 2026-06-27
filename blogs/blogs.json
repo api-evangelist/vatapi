@@ -294,20 +294,13 @@
   "repo": "vatapi",
   "feeds": [
     {
-      "source": "https://vatapi.onfastspring.com/",
-      "feed_url": "https://vatapi.onfastspring.com/",
-      "title": "",
+      "source": "https://vatapi.com/news",
+      "feed_url": "",
       "saved": 0,
-      "method": "none"
-    },
-    {
-      "source": "https://raw.githubusercontent.com/api-evangelist/vatapi/refs/heads/main/finops/vatapi-finops.yml",
-      "feed_url": "https://raw.githubusercontent.com/api-evangelist/vatapi/refs/heads/main/finops/vatapi-finops.yml",
-      "title": "",
-      "saved": 0,
-      "method": "none"
+      "method": "agent-scrape"
     }
   ],
   "post_count": 0,
-  "fetched": "2026-06-14T20:42:17Z"
+  "fetched": "2026-06-27T13:19:11Z",
+  "agent_pulled": "2026-06-27"
 }
