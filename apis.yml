@@ -41,6 +41,8 @@ apis:
       - type: FinOps
         url: https://raw.githubusercontent.com/api-evangelist/vatapi/refs/heads/main/finops/vatapi-finops.yml
 common:
+  - type: DomainSecurity
+    url: security/vatapi-domain-security.yml
   - type: Website
     url: https://vatapi.com/
   - type: Documentation
