@@ -1,3 +1,11 @@
+# Provenance stamped 2026-10-07 (roadmap#943): written by an API Evangelist sweep (undated — the file carries no date and git cannot supply one), not
+# harvested from the provider. `method: generated` so the economics campaign may replace it with a
+# dated, verbatim transcription; every figure below is unverified until it does.
+# Coverage demoted 2026-10-07 (roadmap#942, PLAN.md Stage A): this file was written by an API Evangelist
+# sweep and names no billing unit, meters or pricing category read from the provider — it restates the
+# FinOps framework. It is `x-coverage: unmeasured`, and the FOCUS alignment it claimed has been removed.
+x-coverage: unmeasured
+method: generated
 name: VAT API FinOps
 description: Financial operations guidance for VAT API (vatapi.com) usage. VAT API uses a subscription-based pricing model billed monthly via FastSpring. Plans are tiered by API call volume. Cost management centers on choosing the right plan tier, monitoring monthly call consumption, and leveraging the 30-day free trial before committing to a paid plan. There is no publicly documented per-call overage pricing; exceeding plan limits may suspend service.
 url: https://vatapi.onfastspring.com/

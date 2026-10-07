@@ -1,3 +1,7 @@
+# Provenance stamped 2026-10-07 (roadmap#943): written by an API Evangelist sweep (undated — the file carries no date and git cannot supply one), not
+# harvested from the provider. `method: generated` so the economics campaign may replace it with a
+# dated, verbatim transcription; every figure below is unverified until it does.
+method: generated
 name: VAT API Rate Limits
 description: VAT API implements dynamic rate limiting to protect service availability and ensure fair use across all customers. Rate limits are enforced per API key and vary by subscription plan. Exceeding the rate limit results in HTTP 429 Too Many Requests responses. Limits can be adjusted at any time to accommodate customer demand. All plans include what VAT API describes as "generous throughput," with custom higher limits available by contacting support.
 url: https://docs.vatapi.com/

@@ -1,3 +1,7 @@
+# Provenance stamped 2026-10-07 (roadmap#943): written by an API Evangelist sweep (undated — the file carries no date and git cannot supply one), not
+# harvested from the provider. `method: generated` so the economics campaign may replace it with a
+# dated, verbatim transcription; every figure below is unverified until it does.
+method: generated
 name: VAT API Plans and Pricing
 description: VAT API (vatapi.com) offers subscription plans for accessing its EU and UK VAT compliance REST API. Plans are billed monthly via FastSpring and are based on API call volume. A 30-day free trial is available for new accounts. All plans include access to VAT rates, VAT number validation, invoicing, and currency conversion endpoints. Custom throughput and dedicated endpoints (e.g., https://yourcompany.vatapi.com) are available on request.
 url: https://vatapi.onfastspring.com/
