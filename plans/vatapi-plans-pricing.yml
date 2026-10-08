@@ -53,3 +53,40 @@ plans:
       - Priority support
       - Dedicated infrastructure options
       - Global or EU endpoint selection
+x-canonical:
+  generated: '2026-10-08'
+  vocabulary: all/0-working/economics/plans-canonical.yml
+  models:
+  - free
+  - negotiated
+  units:
+  - period
+  plans:
+  - name: Free Trial
+    access: other
+    model: free
+    model_how: derived
+    units:
+    - period
+    periods: []
+  - name: Starter
+    access: other
+    model: negotiated
+    model_how: derived
+    units:
+    - period
+    periods: []
+  - name: Business
+    access: other
+    model: negotiated
+    model_how: derived
+    units:
+    - period
+    periods: []
+  - name: Enterprise
+    access: other
+    model: negotiated
+    model_how: derived
+    units:
+    - period
+    periods: []
